@@ -1,0 +1,42 @@
+import { ExternalLink } from "lucide-react";
+import { Button } from "@/components/ui/button";
+
+export default function LinksSection() {
+  const links = [
+    { name: "BANXICO", url: "#" },
+    { name: "SAT", url: "#" },
+    { name: "PAGAFACIL", url: "#" },
+    { name: "BURO DE CRÉDITO", url: "#" },
+    { name: "IMSS", url: "#" },
+    { name: "INFONAVIT", url: "#" },
+    { name: "STPS", url: "#" },
+    { name: "SHCP", url: "#" },
+    { name: "CONGRESO DE LA UNIÓN", url: "#" },
+  ];
+
+  return (
+    <section id="links" className="py-16 bg-black border-y border-white/5">
+      <div className="container mx-auto px-6">
+        <h3 className="text-center text-white/60 text-sm uppercase tracking-widest mb-10 font-medium">
+          Enlaces de Interés Institucional
+        </h3>
+        
+        <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8">
+          {links.map((link) => (
+            <Button
+              key={link.name}
+              variant="outline"
+              className="bg-transparent border-white/10 text-gray-400 hover:text-primary hover:border-primary h-14 px-8 text-sm font-semibold tracking-wider min-w-[160px] flex items-center gap-2 group transition-all"
+              asChild
+            >
+              <a href={link.url} target="_blank" rel="noopener noreferrer">
+                {link.name}
+                <ExternalLink className="w-3 h-3 opacity-50 group-hover:opacity-100" />
+              </a>
+            </Button>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
