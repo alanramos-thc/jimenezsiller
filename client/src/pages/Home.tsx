@@ -2,11 +2,12 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Services from "@/components/Services";
-import SocialResponsibility from "@/components/SocialResponsibility";
-import LinksSection from "@/components/LinksSection";
+import Links from "@/components/Links";
 import Environment from "@/components/Environment";
+import Blog from "@/components/Blog";
+import SocialResponsibility from "@/components/SocialResponsibility";
 import Publications from "@/components/Publications";
-import BlogSection from "@/components/BlogSection";
+import Articles from "@/components/Articles";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -17,11 +18,12 @@ export default function Home() {
       <Hero />
       <About />
       <Services />
-      <SocialResponsibility />
-      <LinksSection />
+      <Links />
       <Environment />
+      <Blog />
+      <SocialResponsibility />
       <Publications />
-      <BlogSection />
+      <Articles />
       <div id="contact">
         <Contact />
       </div>

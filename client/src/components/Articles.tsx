@@ -37,9 +37,9 @@ const posts = [
 
 const infinitePosts = [...posts, ...posts];
 
-export default function BlogSection() {
+export default function Articles() {
   return (
-    <section id="blog" className="py-24 bg-background overflow-hidden border-t border-white/5">
+    <section id="articles" className="py-24 bg-background overflow-hidden border-t border-white/5">
       <div className="container mx-auto px-6 mb-12">
         <h2 className="text-primary uppercase tracking-widest text-sm font-semibold mb-3">Análisis Editorial</h2>
         <h3 className="text-4xl font-serif font-bold text-white mb-4">Actualidad y Perspectivas</h3>

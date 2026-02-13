@@ -31,9 +31,6 @@ export default function SocialResponsibility() {
     <section id="responsibility" className="py-24 bg-card/30 border-t border-white/5">
       <div className="container mx-auto px-6">
         <div className="flex flex-col items-center text-center mb-16">
-          <div className="inline-block p-4 rounded-full border-2 border-primary mb-6 animate-pulse">
-            <span className="text-primary font-bold tracking-widest text-lg uppercase px-4">Empresa Socialmente Responsable</span>
-          </div>
           <h2 className="text-primary uppercase tracking-widest text-sm font-semibold mb-3">Compromiso Ético</h2>
           <h3 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6">Agenda 2030 (ONU)</h3>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg leading-relaxed">

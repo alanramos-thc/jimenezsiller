@@ -1,14 +1,14 @@
 import { ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-export default function LinksSection() {
+export default function Links() {
   const links = [
-    { name: "BANXICO", url: "#" },
-    { name: "SAT", url: "#" },
+    { name: "BANXICO", url: "www.banxico.org.mx" },
+    { name: "SAT", url: "www.sat.gob.mx" },
     { name: "PAGAFACIL", url: "#" },
     { name: "BURO DE CRÉDITO", url: "#" },
-    { name: "IMSS", url: "#" },
-    { name: "INFONAVIT", url: "#" },
+    { name: "IMSS", url: "www.imss.gob.mx" },
+    { name: "INFONAVIT", url: "www.infonavit.org.mx" },
     { name: "STPS", url: "#" },
     { name: "SHCP", url: "#" },
     { name: "CONGRESO DE LA UNIÓN", url: "#" },
