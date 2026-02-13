@@ -22,6 +22,7 @@ export default function Navbar() {
     { name: "Quiénes Somos", href: "#about" },
     { name: "Servicios", href: "#services" },
     { name: "Enlaces", href: "#links" },
+    { name: "Entorno", href: "#environment" },
     { name: "Contacto", href: "#contact" },
   ];
 

@@ -2,9 +2,10 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Services from "@/components/Services";
-import Publications from "@/components/Publications";
 import SocialResponsibility from "@/components/SocialResponsibility";
 import LinksSection from "@/components/LinksSection";
+import Environment from "@/components/Environment";
+import Publications from "@/components/Publications";
 import BlogSection from "@/components/BlogSection";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -16,9 +17,10 @@ export default function Home() {
       <Hero />
       <About />
       <Services />
-      <Publications />
       <SocialResponsibility />
       <LinksSection />
+      <Environment />
+      <Publications />
       <BlogSection />
       <div id="contact">
         <Contact />

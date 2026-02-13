@@ -36,7 +36,7 @@ export default function About() {
               <h2 className="text-primary uppercase tracking-widest text-sm font-semibold mb-2">Sobre Nosotros</h2>
               <h3 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6">Trayectoria y Excelencia</h3>
               <p className="text-gray-400 text-lg leading-relaxed">
-                Somos una Sociedad Civil constituida desde 2016. Especialistas altamente calificados brindando soluciones integrales a personas físicas y morales en materia contable, administrativa e impuestos.
+                Somos una Firma constituida desde 2016. Especialistas altamente calificados brindando soluciones integrales a personas físicas y morales en materia contable, administrativa e impuestos.
               </p>
             </div>
 
