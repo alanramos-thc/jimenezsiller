@@ -3,11 +3,9 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Services from "@/components/Services";
 import Links from "@/components/Links";
-import Publications from "@/components/Publications";
 import Environment from "@/components/Environment";
 import Blog from "@/components/Blog";
 import SocialResponsibility from "@/components/SocialResponsibility";
-import Articles from "@/components/Articles";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -19,11 +17,9 @@ export default function Home() {
       <About />
       <Services />
       <Links />
-      <Publications />
       <Environment />
       <Blog />
       <SocialResponsibility />
-      <Articles />
       <div id="contact">
         <Contact />
       </div>

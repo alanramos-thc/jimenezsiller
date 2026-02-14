@@ -110,7 +110,7 @@ export default function Contact() {
                       <FormItem>
                         <FormLabel className="text-gray-400">Nombre Completo</FormLabel>
                         <FormControl>
-                          <Input placeholder="Juan Pérez" className="bg-background border-white/10 text-white focus:border-primary/50" {...field} />
+                          <Input className="bg-background border-white/10 text-white focus:border-primary/50" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -123,7 +123,7 @@ export default function Contact() {
                       <FormItem>
                         <FormLabel className="text-gray-400">Empresa (Opcional)</FormLabel>
                         <FormControl>
-                          <Input placeholder="Su Empresa S.A." className="bg-background border-white/10 text-white focus:border-primary/50" {...field} />
+                          <Input className="bg-background border-white/10 text-white focus:border-primary/50" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -139,7 +139,7 @@ export default function Contact() {
                       <FormItem>
                         <FormLabel className="text-gray-400">Correo Electrónico</FormLabel>
                         <FormControl>
-                          <Input placeholder="correo@ejemplo.com" className="bg-background border-white/10 text-white focus:border-primary/50" {...field} />
+                          <Input className="bg-background border-white/10 text-white focus:border-primary/50" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -152,7 +152,7 @@ export default function Contact() {
                       <FormItem>
                         <FormLabel className="text-gray-400">Teléfono</FormLabel>
                         <FormControl>
-                          <Input placeholder="(000) 000-0000" className="bg-background border-white/10 text-white focus:border-primary/50" {...field} />
+                          <Input className="bg-background border-white/10 text-white focus:border-primary/50" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>

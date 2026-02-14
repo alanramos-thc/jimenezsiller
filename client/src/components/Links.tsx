@@ -10,14 +10,16 @@ export default function Links() {
     { name: "IMSS", url: "www.imss.gob.mx" },
     { name: "INFONAVIT", url: "www.infonavit.org.mx" },
     { name: "STPS", url: "#" },
-    { name: "SHCP", url: "#" },
-    { name: "CONGRESO DE LA UNIÓN", url: "#" },
+    { name: "LISR", url: "#" },
+    { name: "CFF", url: "#" },
+    { name: "LIVA", url: "#" },
+    { name: "MISCELEÁNEA FISCAL", url: "#" }
   ];
 
   return (
     <section id="links" className="py-16 bg-black border-y border-white/5">
       <div className="container mx-auto px-6">
-        <h3 className="text-center text-white/60 text-sm uppercase tracking-widest mb-10 font-medium">
+        <h3 className="text-center text-white/60 text-3xl uppercase tracking-widest mb-10 font-medium">
           Enlaces de Interés Institucional
         </h3>
         
