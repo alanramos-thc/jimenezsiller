@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
-import { MapPin, Phone, Mail, Facebook, Linkedin, Twitter, Instagram } from "lucide-react";
+import { MapPin, Phone, Mail, Facebook, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -30,6 +30,22 @@ export default function Contact() {
       message: "",
     },
   });
+
+  const XLogo = ({ className }: { className?: string }) => (
+  <svg 
+    fill="currentColor" 
+    viewBox="0 0 24 24" 
+    className={className}
+  >
+    <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+  </svg>
+);
+
+  const socialLinks = [
+    { icon: Facebook, href: "https://facebook.com/tupagina" },
+    { icon: Instagram, href: "https://www.instagram.com/jsdespacho?igsh=MWV1cXhkdG5xOXNvdQ==" },
+    { icon: XLogo, href: "https://x.com/jsdespacho1960" },
+  ];
 
   function onSubmit(values: z.infer<typeof formSchema>) {
     console.log(values);
@@ -81,6 +97,7 @@ export default function Contact() {
                 <div>
                   <h4 className="text-white font-serif text-lg mb-1">Correo Electrónico</h4>
                   <p className="text-gray-400">direccion@jimenezsiller.com.mx</p>
+                  <p className="text-gray-400">jimenezhmarcoa@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -88,9 +105,15 @@ export default function Contact() {
             <div className="mt-12">
               <h4 className="text-white font-medium mb-4 uppercase tracking-widest text-sm">Síguenos</h4>
               <div className="flex gap-4">
-                {[Facebook, Instagram, Twitter, Linkedin].map((Icon, i) => (
-                  <a key={i} href="#" className="w-10 h-10 rounded-full bg-card border border-white/10 flex items-center justify-center text-gray-400 hover:text-primary hover:border-primary transition-all">
-                    <Icon className="w-5 h-5" />
+                {socialLinks.map((social, i) => (
+                  <a 
+                    key={i} 
+                    href={social.href} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="w-10 h-10 rounded-full bg-card border border-white/10 flex items-center justify-center text-gray-400 hover:text-primary hover:border-primary transition-all"
+                  >
+                    <social.icon className="w-5 h-5" />
                   </a>
                 ))}
               </div>
