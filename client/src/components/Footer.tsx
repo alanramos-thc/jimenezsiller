@@ -14,11 +14,6 @@ export default function Footer() {
             © {new Date().getFullYear()} Todos los derechos reservados.
           </p>
         </div>
-        
-        <div className="flex gap-8 text-sm text-gray-500">
-          <a href="#" className="hover:text-primary transition-colors">Aviso de Privacidad</a>
-          <a href="#" className="hover:text-primary transition-colors">Términos y Condiciones</a>
-        </div>
       </div>
     </footer>
   );
